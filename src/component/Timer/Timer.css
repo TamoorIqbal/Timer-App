@@ -1,0 +1,45 @@
+.timer-container {
+    background-color: var(--green);
+    border: var(--timer-border);
+    width: var(--timer-width);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .time-display {
+    min-height: 380px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    position: relative;
+  }
+  .time-display > p {
+    font-size: 10rem;
+    font-family: clockicons,sans-serif;
+  }
+  
+  .timer-button-container {
+    display: flex;
+    justify-content: space-around;
+  
+    background-color: var(--light);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .timer-container {
+      border: none;
+      
+    }
+  
+    .timer-button-container {
+      flex-direction: column;
+    }
+  
+    .time-display > p {
+      font-size: 5rem;
+    }
+  }

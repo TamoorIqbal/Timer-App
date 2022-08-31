@@ -1,0 +1,21 @@
+.button-container {
+    flex: 1 1 auto;
+    text-align: center;
+    /* border: var(--button-border); */
+    font-size: var(--button-text-size);
+    text-transform: uppercase;
+    color: var(--white);
+  
+    background-color: var(--green);
+    box-shadow: 4px 4px 2px 0px var(--dark-green);
+    transition: all 0.5s;
+  
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 30px;
+  }
+  
+  .button-container:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgba(222, 242, 241, 1);
+  }
